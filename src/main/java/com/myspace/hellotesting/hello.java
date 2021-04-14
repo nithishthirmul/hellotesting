@@ -6,12 +6,23 @@ package com.myspace.hellotesting;
 
 public class hello implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public hello() {
-    }
+	private java.lang.Integer fedf;
 
+	public hello() {
+	}
 
+	public java.lang.Integer getFedf() {
+		return this.fedf;
+	}
 
+	public void setFedf(java.lang.Integer fedf) {
+		this.fedf = fedf;
+	}
+
+	public hello(java.lang.Integer fedf) {
+		this.fedf = fedf;
+	}
 
 }
