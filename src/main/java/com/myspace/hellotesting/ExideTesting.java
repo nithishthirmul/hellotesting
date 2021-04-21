@@ -6,12 +6,23 @@ package com.myspace.hellotesting;
 
 public class ExideTesting implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ExideTesting() {
-    }
+	private java.lang.String as;
 
+	public ExideTesting() {
+	}
 
+	public java.lang.String getAs() {
+		return this.as;
+	}
 
+	public void setAs(java.lang.String as) {
+		this.as = as;
+	}
+
+	public ExideTesting(java.lang.String as) {
+		this.as = as;
+	}
 
 }
